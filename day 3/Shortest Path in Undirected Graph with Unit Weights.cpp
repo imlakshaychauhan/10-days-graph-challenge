@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-// Program to find shortest path in undirect graph with unit weights using BFS.
+// Program to find shortest path in undirected graph with unit weights using BFS.
 void shortest(vector<int> adj[], int v, int src) {
     vector<int> dist(v, INT_MAX);
     queue<int> q;
